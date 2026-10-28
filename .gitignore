@@ -1,0 +1,51 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and credentials (keep only the empty template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Task state, media, models, rendered output and verification artifacts
+.filmedit/
+.impeccable/
+.cache/
+artifacts/
+outputs/
+renders/
+materials/
+downloads/
+models/
+*.sqlite*
+*.db
+*.log
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.onnx
+*.safetensors
+*.pt
+*.pth
+
+# Local execution reports and handoff notes
+/docs/pi-verification.md
+/docs/product-acceptance.md
+/docs/product-implementation.md
+/docs/review-ui-handoff.md
+/docs/verification.md
+
+# Operating system files
+.DS_Store
+Thumbs.db

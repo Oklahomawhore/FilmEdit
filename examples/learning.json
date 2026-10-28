@@ -1,0 +1,11 @@
+{
+  "kind": "technique",
+  "query": "用匹配剪辑把不同场景中的相同动作连接起来",
+  "localPaths": [],
+  "readPaths": [],
+  "denyPaths": [],
+  "referenceStart": 0,
+  "duration": 5,
+  "maxAttempts": null,
+  "usd": null
+}

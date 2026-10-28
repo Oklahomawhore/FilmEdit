@@ -1,0 +1,11 @@
+faster-whisper==1.2.1
+# PyAV 19 removed metadata_errors, still used by faster-whisper 1.2.1.
+# https://github.com/SYSTRAN/faster-whisper/issues/1589
+av==18.1.0
+librosa==0.11.0
+transformers==4.57.1
+torch==2.9.0
+sentencepiece==0.2.1
+rembg[cpu]==2.0.67
+huggingface-hub==0.36.0
+piper-tts==1.8.0
